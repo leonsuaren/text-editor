@@ -7,7 +7,7 @@ export const GlobalStyled = createGlobalStyle`
     box-sizing: border-box;
   }
   h1, h2, h3, h4, h5, h6, p, a, span {
-    font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: ${ props => props.theme.baseFontColor};
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    color: ${ props => props.theme.baseFontColor };
   }
 `;

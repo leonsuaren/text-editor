@@ -1,11 +1,11 @@
 import React from 'react';
 
-import * as uti from '../../layout';
+import * as lay from '../../layout';
 
 export const TextEditor = () => {
   return (
-    <uti.Layout>
+    <lay.Layout>
       <h1>Text Editor</h1>
-    </uti.Layout>
+    </lay.Layout>
   )
 }

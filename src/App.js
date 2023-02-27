@@ -1,13 +1,15 @@
 import { ThemeProvider } from 'styled-components';
 
-import * as com from './views';
+import * as vie from './views';
 import * as uti from './utils';
+import * as com from './components';
 
 function App() {
   return (
     <ThemeProvider theme={uti.theme}>
       <uti.GlobalStyled />
-      <com.TextEditor />
+      <com.Menu />
+      <vie.TextEditor />
     </ThemeProvider>
   );
 }
