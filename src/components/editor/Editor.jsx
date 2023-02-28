@@ -7,7 +7,7 @@ export const Editor = () => {
   return (
     <styled.EditorWrapper>
       <com.EditorTools />
-      <h1>title</h1>
+      <com.InputTitle />
       <h1>textarea</h1>
     </styled.EditorWrapper>
   )

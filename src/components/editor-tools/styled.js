@@ -8,7 +8,7 @@ export const EditorToolsWrapre = styled.div`
   padding: 0;
 
   @media screen and (min-width: 320px) and (max-width: 480px) {
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 80% 20%;
   }
 
   @media screen and (min-width: 481px) and (max-width: 768px) {
