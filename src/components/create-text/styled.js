@@ -24,6 +24,5 @@ export const CreateTextPlus = styled(BiPlus)`
   &:hover {
     color: ${ props => props.theme.primaryThemeColor };
     border: 2px solid ${ props => props.theme.primaryThemeColor };
-
-  }
+  };
 `;

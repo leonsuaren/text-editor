@@ -1,2 +1,2 @@
 export { Editor } from './Editor';
-export { EditorWrapper } from './styled';
+export { EditorWrapper, FormWrapper } from './styled';

@@ -2,7 +2,6 @@ import styled, { css } from 'styled-components';
 
 export const ToolsWrapper = styled.div`
   margin: 0px 20px;
-  width: 100%;
   height: 100%;
   display: flex;
   justify-content: flex-start;
@@ -20,7 +19,7 @@ export const ToolButtonsWrapper = styled.div`
   border-radius: 10px;
 `;
 
-export const ButtonStyled = () => {
+const ButtonStyled = () => {
   return css`
     background-color: ${ props => props.theme.baseFontColor };
     margin: 0;

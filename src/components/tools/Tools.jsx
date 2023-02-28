@@ -3,15 +3,17 @@ import { AiOutlineUnderline, AiOutlineBold, AiOutlineItalic } from "react-icons/
 
 import * as styled from './index';
 
-export const Tools = () => {
+export const Tools = ({ handleOnBoldStyled }) => {
+
+
   return (
     <styled.ToolsWrapper>
       <styled.ToolButtonsWrapper>
         <styled.Button>
           <AiOutlineUnderline />
         </styled.Button>
-        <styled.Button>
-          <AiOutlineBold />
+        <styled.Button onClick={handleOnBoldStyled}>
+          <AiOutlineBold/>
         </styled.Button>
         <styled.Button>
           <AiOutlineItalic />

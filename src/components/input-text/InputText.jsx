@@ -2,8 +2,8 @@ import React from 'react';
 
 import * as styled from './index';
 
-export const InputText = () => {
+export const InputText = ({ placeholder, name, id, onChange, value, type }) => {
   return (
-    <styled.Textarea placeholder='Tell your story here!' rows="4" cols="50"/>
+    <styled.Textarea placeholder={placeholder} name={name} id={id} onChange={onChange} type={type}/>
   )
 }

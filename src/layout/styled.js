@@ -20,6 +20,6 @@ export const Container = styled.div`
   }
 
   @media (min-width: 1201px) {
-    margin: 0 200px;
+    margin: 0 300px;
   }
 `;
