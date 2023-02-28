@@ -5,7 +5,7 @@ import * as styled from './index';
 export const Brand = () => {
   return (
     <styled.BrandWraper>
-      <styled.BrandText>Texter</styled.BrandText>
+      <styled.BrandText>xt</styled.BrandText>
     </styled.BrandWraper>
   )
 }
@@ -13,7 +13,7 @@ export const Brand = () => {
 export const BrandWatermark = () => {
   return (
     <styled.BrandWraperWatermark>
-      <styled.BrandTextWatermark>Texter</styled.BrandTextWatermark>
+      <styled.BrandTextWatermark>xt</styled.BrandTextWatermark>
     </styled.BrandWraperWatermark>
   )
 }
