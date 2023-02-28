@@ -18,7 +18,12 @@ export const CreateTextPlusButton = styled.button`
 export const CreateTextPlus = styled(BiPlus)`
   font-size: 2.4rem;
   font-weight: 100;
-  color: ${ props => props.theme.primaryThemeColor };
+  color: ${ props => props.theme.primaryThemeColorTransparent };
   border-radius: 50%;
   border: 1px solid ${ props => props.theme.primaryThemeColorTransparent };
+  &:hover {
+    color: ${ props => props.theme.primaryThemeColor };
+    border: 2px solid ${ props => props.theme.primaryThemeColor };
+
+  }
 `;
