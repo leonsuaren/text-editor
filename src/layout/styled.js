@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 0 300px;
+  margin: 0 200px;
 
   @media (min-width: 320px) and (max-width:480px ) {
     margin: 0 10px;
@@ -20,6 +20,6 @@ export const Container = styled.div`
   }
 
   @media (min-width: 1201px) {
-    margin: 0 300px;
+    margin: 0 200px;
   }
 `;

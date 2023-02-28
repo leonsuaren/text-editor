@@ -8,4 +8,9 @@ export const MenuLine = styled.div`
 
 export const MenuWrapper = styled.div`
   height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
 `

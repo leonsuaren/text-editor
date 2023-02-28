@@ -1,11 +1,12 @@
 import React from 'react';
 
+import * as com from '../../components';
 import * as lay from '../../layout';
 
 export const TextEditor = () => {
   return (
     <lay.Layout>
-      <h1>Text Editor</h1>
+      <com.Editor />
     </lay.Layout>
   )
 }
