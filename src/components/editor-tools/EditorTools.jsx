@@ -6,7 +6,7 @@ import * as styled from './index';
 export const EditorTools = () => {
   return (
     <styled.EditorToolsWrapre>
-      <p>tools</p>
+      <com.Tools />
       <com.CreateText />
     </styled.EditorToolsWrapre>
   )
